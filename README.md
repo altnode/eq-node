@@ -3,6 +3,8 @@
 [![NPM Version](http://img.shields.io/npm/v/altnode.eq-node.svg?style=flat-square)](https://www.npmjs.org/package/altnode.eq-node)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://mohayonao.mit-license.org/)
 
+![graph](https://github.com/altnode/eq-node/wiki/images/eq-node.png)
+
 ## Installation
 
 ```
@@ -10,7 +12,7 @@ npm install -S altnode.eq-node
 ```
 
 ## API
-### AudioNode
+### EQNode
 - `constructor(audioContext: AudioContext, paramsList: object[])`
 
 #### Instance methods
