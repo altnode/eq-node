@@ -1,10 +1,10 @@
-import AudioNode from "altnode.audio-node";
+import AltAudioNode from "altnode.alt-audio-node";
 import _first from "lodash.first";
 import _last from "lodash.last";
 import { filterType, audioNode, setAudioParam } from "./utils";
 import { FILTERS, ID_MAP } from "./symbols";
 
-export default class EQNode extends AudioNode {
+export default class EQNode extends AltAudioNode {
   constructor(audioContext, paramList) {
     super(audioContext);
 
